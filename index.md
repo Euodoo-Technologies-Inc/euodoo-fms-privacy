@@ -45,12 +45,6 @@ and re-prompting every half hour would make the app unusable).
   SDK of any kind.
 - Signing out deletes them from the keystore.
 
-### Password reset
-
-If you use **Forgot password**, the **email address** you type is sent over HTTPS to the
-tracking platform, which emails you reset instructions. The app does not store it, and it
-does not reach Euodoo.
-
 ### Access tokens
 
 The short-lived access token is kept for the life of your session and used to
@@ -104,7 +98,7 @@ and we do not upload them anywhere.
 
 | Recipient | What reaches them | Why |
 | --- | --- | --- |
-| **Your organisation's fleet-tracking platform** | Sign-in credentials, the email you enter for a password reset, API requests, your IP | It is the fleet platform of record; the app is a client for it. Governed by your operator's agreement with that platform's provider. |
+| **Your organisation's fleet-tracking platform** | Sign-in credentials, API requests, your IP | It is the fleet platform of record; the app is a client for it. Governed by your operator's agreement with that platform's provider. |
 | **Expo push service** and, in turn, **Google Firebase Cloud Messaging** *(once notifications are available)* | Push token and notification content (a short alert like a vehicle name and event type) | Required to deliver an Android push notification at all. |
 | **Map tile providers** — OpenStreetMap, CARTO, Esri/ArcGIS Online, OpenTopoMap | Your IP address and the map tiles requested, when a map is on screen | To render the base map. No account data is sent; which one is contacted depends on the map style you select. |
 | **Euodoo notification service** *(once notifications are available)* | The items listed under *Notification registration* | To decide which devices should receive which alerts. |
