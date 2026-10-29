@@ -5,7 +5,7 @@ title: euodoó FMS Privacy Policy
 
 # euodoó FMS — Privacy Policy
 
-**Effective date:** 26 October 2026
+**Effective date:** 27 October 2026
 **Applies to:** the euodoó FMS Android application (`com.euodoo.fms`) and, once push
 notifications are available, the notification service operated alongside it.
 
@@ -100,7 +100,7 @@ and we do not upload them anywhere.
 | --- | --- | --- |
 | **Your organisation's fleet-tracking platform** | Sign-in credentials, API requests, your IP | It is the fleet platform of record; the app is a client for it. Governed by your operator's agreement with that platform's provider. |
 | **Expo push service** and, in turn, **Google Firebase Cloud Messaging** *(once notifications are available)* | Push token and notification content (a short alert like a vehicle name and event type) | Required to deliver an Android push notification at all. |
-| **Map tile providers** — OpenStreetMap, CARTO, Esri/ArcGIS Online, OpenTopoMap | Your IP address and the map tiles requested, when a map is on screen | To render the base map. No account data is sent; which one is contacted depends on the map style you select. |
+| **Map tile providers** — OpenStreetMap, Esri/ArcGIS Online, OpenTopoMap | Your IP address and the map tiles requested, when a map is on screen | To render the base map. No account data is sent; which one is contacted depends on the map style you select. |
 | **Euodoo notification service** *(once notifications are available)* | The items listed under *Notification registration* | To decide which devices should receive which alerts. |
 
 We use no other processors. We do not transfer data to any party for advertising.
